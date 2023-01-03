@@ -1,9 +1,9 @@
 # Site settings
 course_name: Machine learning with kernel methods
 course_description: "An introductory course on kernel methods for machine learning."
-course_semester: "Spring 2022"
+course_semester: "Spring 2023"
 
-baseurl: "/course-2021-2022" # the subpath of your site, e.g. /blog/
+baseurl: "/course-2022-2023" # the subpath of your site, e.g. /blog/
 url: "https://mva-kernel-methods.github.io/" # the base hostname & protocol for your site
 
 schoolname: "MVA/MASH"
