@@ -1,12 +1,14 @@
 ---
 type: lecture
-date: 2022-03-09T8:00:00+1:30
+date: 2023-03-15T8:00:00+1:30
 title: Lecture 8 - Kernel Mean Embeddings of probability distributions
 tldr: "Representing probability distributions using kernels"
 
 thumbnail: /static_files/presentations/Lecture_8.jpg
-display: true
+display: false
 slides: 543-598
+slides_begin: 543
+slides_ends: 598
 links: 
     - url: https://www.youtube.com/watch?v=KYTYPFJ3YQk
       name: Video 1

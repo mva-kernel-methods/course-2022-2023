@@ -1,11 +1,11 @@
 ---
 type: assignment
-date: 2022-03-02T8:01:00+1:30
-title: 'Assignment #4'
-pdf: /static_files/homeworks/hw4.pdf
+date: 2023-01-25T16:01:00+1:30
+title: 'Kaggle challenge '
+#pdf: /static_files/homeworks/hw3.pdf
 due_event: 
     type: due
-    date: 2022-03-09T15:00:00+3:30
-    description: 'Assignment #4 due'
-display: true
+    date: 2023-03-31T15:00:00+3:30
+    description: 'Kaggle challenge ends'
+display: false
 ---

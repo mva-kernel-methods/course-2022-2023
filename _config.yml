@@ -1,6 +1,6 @@
 # Site settings
 course_name: Machine learning with kernel methods
-course_description: "An introductory course on kernel methods for machine learning."
+course_description: ""
 course_semester: "Spring 2023"
 
 baseurl: "/course-2022-2023" # the subpath of your site, e.g. /blog/

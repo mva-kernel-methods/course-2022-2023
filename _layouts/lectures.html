@@ -24,7 +24,7 @@ layout: page
         {% if lecture.display %}
         {% if lecture.slides  %}
         <br/>
-        <strong><a href="/static_files/materials/slides.pdf"> Slides:</a> Pages {{lecture.slides}}
+        <strong><a href="{{site.baseurl}}/static_files/materials/slides.pdf#page={{lecture.slides_begin}}"> Slides:</a> Pages {{lecture.slides_begin}}-{{lecture.slides_ends}}
         </strong>
         {% endif %}
         {% if lecture.links %}

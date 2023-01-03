@@ -1,10 +1,13 @@
 ---
 type: lecture
-date: 2022-01-12T8:00:00+1:30
+date: 2023-01-11T8:00:00+1:30
 title: Lecture 1 - Kernels, RKHS, examples
 tldr: "Introduction to kernels and related notions."
 display: true
 slides: 1-41
+slides_begin: 1
+slides_ends: 41
+
 thumbnail: /static_files/presentations/Lecture_1.jpg
 links: 
     - url: https://www.youtube.com/watch?v=IzGS8uKc5E4

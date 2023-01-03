@@ -1,12 +1,11 @@
 ---
 type: assignment
-date: 2022-02-09T8:01:00+1:30
+date: 2023-03-01T16:01:00+1:30
 title: 'Assignment #3'
-pdf: /static_files/homeworks/exercices_3.pdf
-attachment: /static_files/homeworks/homework_3.zip
+pdf: /static_files/homeworks/hw3.pdf
 due_event: 
     type: due
-    date: 2022-02-23T15:00:00+3:30
+    date: 2023-03-15T15:00:00+3:30
     description: 'Assignment #3 due'
-display: true
+display: false
 ---
