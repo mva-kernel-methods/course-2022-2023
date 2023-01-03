@@ -10,14 +10,16 @@
           <span class="coursesemeter" style="font-size: 12px;font-weight: bold;margin-top: 30px;display: block;">{{ site.course_semester }}</span>
           </td>
           <td>
-          <p align="right"  style="margin-top: 20px;margin-bottom: -10px;" class="site-title_2"> by &nbsp;
+ <!--          <p align="right"  style="margin-top: 20px;margin-bottom: -10px;" class="site-title_2"> by &nbsp;
           {% for ins in site.data.people.instructors reversed %}
+            {% if ins.current %}
             <a href="{{ ins.webpage }}"> 
-             {{ins.name}} {% if forloop.index == 2 %} and &nbsp; {% endif %}
+             {{ins.name}} {% if forloop.index == 4 %} and &nbsp; {% else %} , {% endif %} 
             </a>
+            {% endif %}
           {% endfor %} 
           </p>     
-          </td>
+ -->          </td>
         </tr>
         {% for ins in site.data.people.institutions %}
         <tr>

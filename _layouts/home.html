@@ -47,6 +47,19 @@ layout: default
                 </div>
                 {% endif %}
                 {% endfor %}
+                {% for ins in site.data.people.instructors %}
+                {% unless ins.current %} 
+                <div class="image--cover-container">
+<!--                     <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover"> -->
+                    {% if ins.webpage %}
+                    <p><a href="{{ ins.webpage }}">{{ins.name}} (virtually)</a></p>
+                    {% else %}
+                    <p>{{ins.name}} (virtually)</p>
+                    {% endif %}
+                </div>
+                {% endunless %}
+                {% endfor %}
+
             </div>
         </div>
 

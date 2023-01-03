@@ -33,4 +33,4 @@ TBA
  -->
 
 ## Evaluation
- The final note will be a weighted average of a data challenge (40%), a final exam (40%) and regular quizzes every week (20%).
+ The final note will be a weighted average of a data challenge (40%), a final exam (40%) and regular homeworks (20%).
