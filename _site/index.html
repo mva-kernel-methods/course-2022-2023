@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+
+
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Machine learning with kernel methods / Spring 2022 - MVA/MASH</title>
+  <meta name="description" content=" - Machine learning with kernel methods / Spring 2022">
+  
+  <link rel="stylesheet" href="/course-2021-2022/_css/main.css">
+  <link rel="canonical" href="http://localhost:4000/course-2021-2022/">
+  <link rel="alternate" type="application/rss+xml" title="Machine learning with kernel methods / Spring 2022 - MVA/MASH" href="http://localhost:4000/course-2021-2022/feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+
+
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper" style="z-index: 100;">
+
+      <table><tr>
+          <td></td>
+          <td style="padding-left:10px;">
+          <span style="margin-top: 20px;margin-bottom: -10px;" class="site-title"><a href="/course-2021-2022/" title="Machine learning with kernel methods / Spring 2022 - MVA/MASH"><b>Machine learning with kernel methods</a></b></span>
+          <br/>
+          <span class="coursesemeter" style="font-size: 12px;font-weight: bold;margin-top: 30px;display: block;">Spring 2022</span>
+          </td>
+          <td>
+          <p align="right"  style="margin-top: 20px;margin-bottom: -10px;" class="site-title_2"> by &nbsp;
+          
+            <a href="https://michaelarbel.github.io/"> 
+             Michael Arbel 
+            </a>
+          
+            <a href="https://thoth.inrialpes.fr/people/mairal/"> 
+             Julien Mairal  and &nbsp; 
+            </a>
+          
+            <a href="https://members.cbio.mines-paristech.fr/~jvert/"> 
+             Jean-Philippe Vert (Virtually) 
+            </a>
+           
+          </p>     
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+             <br> 
+            <a href="https://ens-paris-saclay.fr/en"><img width="75" src="/course-2021-2022/_images/logo_ENS.png" valign="middle" title="ENS Paris Saclay" ></a></td>
+          <td style="padding-left:10px;">
+             <br> 
+          <span style="margin-top: 20px;margin-bottom: -10px;" class="site-title_1"><a href="https://www.master-mva.com/" title="ENS Paris Saclay">MSc Mathematics, Vision, Machine Learning (MVA)</a></span>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+            
+            <a href="https://dauphine.psl.eu/en/"><img width="75" src="/course-2021-2022/_images/logo_dauphine.png" valign="middle" title="PSL University" ></a></td>
+          <td style="padding-left:10px;">
+            
+          <span style="margin-top: 20px;margin-bottom: -10px;" class="site-title_1"><a href="https://dauphine.psl.eu/en/training/masters-degrees/mathematics-and-applied-mathematics/masters-year-2-mathematics-deep-learning-and-humanities/program" title="PSL University">MSc Mathematics, Machine Learning, and the Humanities (MASH)</a></span>
+          </td>
+        </tr>
+        
+      </table>
+      <br>
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>  
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+    
+    <li>
+        <a class="page-link" href="/course-2021-2022/">
+            <i class="fa fa-home fa-lg"></i> Home
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/course-2021-2022/schedule/">
+            <i class="fas fa-calendar-alt"></i> Schedule
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/course-2021-2022/lectures/">
+            <i class="fas fa-book-reader"></i> Lectures
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/course-2021-2022/assignments/">
+            <i class="fas fa-user-graduate"></i> Assignments
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/course-2021-2022/project/">
+            <i class="fas fa-user-graduate"></i> Project
+        </a>
+    </li>
+    
+</ul>
+
+     </div>  
+    </nav>
+
+  </div>
+
+  <div class="header-texture" style="height:100%; z-index: 0; position: absolute; top:0; right: 0; left: 0; 
+  background-image: url('/course-2021-2022/_images/pattern.png');" />
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="home">
+
+    <h1>Machine learning with kernel methods <span style="font-size: 20px;color: #0006;">/ Spring 2022 </span></h1>
+    
+
+
+
+
+
+
+
+
+
+<div class="announcement-box" style="margin-top:30px">
+<h2>Updates</h2>
+<ul>
+    
+    <li class="no-p-margin">
+        
+            
+                New Lecture is up: Lecture 9 - Deep kernel machines and large-scale learning with kernels
+                
+    
+    
+    [<a title="Download Video 1" href="
+    
+      https://youtu.be/H3e9Jud7Y_U 
+    ">Video 1</a>]
+    
+    [<a title="Download Video 2" href="
+    
+      https://youtu.be/6mvUxSpGxgo 
+    ">Video 2</a>]
+    
+    
+
+            
+        
+    </li>
+    
+    <li class="no-p-margin">
+        
+            
+                New Lecture is up: Lecture 8 - Kernel Mean Embeddings of probability distributions
+                
+    
+    
+    [<a title="Download Video 1" href="
+    
+      https://www.youtube.com/watch?v=KYTYPFJ3YQk 
+    ">Video 1</a>]
+    
+    [<a title="Download Video 2" href="
+    
+      https://www.youtube.com/watch?v=i11SNTVtarc 
+    ">Video 2</a>]
+    
+    
+
+            
+        
+    </li>
+    
+    <li class="no-p-margin">
+        
+            
+                New Assignment released: [<a href="/course-2021-2022/assignments/04_assignment">Assignment #4</a>]
+            
+        
+    </li>
+    
+</ul>
+
+</div>
+    <br />
+
+    <h2>Course Description</h2>
+    <p>An introductory course on kernel methods for machine learning.</p>
+    
+    <p>Many problems in real-world applications of machine learning can be formalized as classical statistical problems, e.g., pattern recognition, regression or dimension reduction, with the caveat that the data are often not vectors of numbers. For example, protein sequences and structures in computational biology, text and XML documents in web mining, segmented pictures in image processing, or time series in speech recognition and finance, have particular structures which contain relevant information for the statistical problem but can hardly be encoded into finite-dimensional vector representations.</p>
+
+<p>Kernel methods are a class of algorithms well suited for such problems. Indeed they extend the applicability of many statistical methods initially designed for vectors to virtually any type of data, without the need for explicit vectorization of the data. The price to pay for this extension to non-vectors is the need to define a so-called positive definite kernel function between the objects, formally equivalent to an implicit vectorization of the data. The “art” of kernel design for various objects have witnessed important advances in recent years, resulting in many state-of-the-art algorithms and successful applications in many domains.</p>
+
+<p>The goal of this course is to present the mathematical foundations of kernel methods, as well as the main approaches that have emerged so far in kernel design. We will start with a presentation of the theory of positive definite kernels and reproducing kernel Hilbert spaces, which will allow us to introduce several kernel methods including kernel principal component analysis and support vector machines. Then we will come back to the problem of defining the kernel. We will present the main results about Mercer kernels and semigroup kernels, as well as a few examples of kernel for strings and graphs, taken from applications in computational biology, text processing and image analysis. Finally we will touch upon topics of active research, such as large-scale kernel methods and deep kernel machines.</p>
+
+<h2 id="schedule-and-organization">Schedule and organization</h2>
+
+<ul>
+  <li>For this class, we will adopt a hybrid format: Before each class, you are supposed to have studied a set of slides and watched the corresponding videos (typically 1.5H long) before the class. On the official schedule, the class starts at <strong>1:30pm</strong>, which gives you enough time for watching the videos and studying the slides, <strong>before</strong> participating to one-hour interactive sessions with the intructors. During these, we will take questions, discuss solutions to homeworks, etc… These <strong>one-hour sessions</strong> will take place every <strong>Wednesdays from 3pm to 4pm</strong>. There will be 9 sessions in total.</li>
+  <li>Our goal is to organize these sessions in person at ENS Paris Saclay. Nevertheless, the current situation forces us to start the class fully online, at least until the end of January. A zoom link will be provided by email. (Both instructors live in Grenoble, and have travel restrictions due to Inria’s current policy).</li>
+  <li>The grading of the class will be done with (i) one final exam, (ii) a data challenge, (iii) regular (short) exercises to do online.</li>
+  <li>Please contact the instructors if you would like to follow this course.</li>
+</ul>
+
+<h2 id="evaluation">Evaluation</h2>
+<p>The final note will be a weighted average of a data challenge (40%), a final exam (40%) and regular quizzes every week (20%).</p>
+
+    
+    
+    <h2>Previous Courses</h2>
+    <ul class="previous-offerings">
+    
+    <li><a href="https://members.cbio.mines-paristech.fr/~jvert/svn/kernelcourse/course/2021mva/index.html">Spring 2021</a></li>
+    
+    </ul>
+    
+
+    <br>
+
+<div>
+        <div style="width:35%; float: left; margin-bottom: 10px">
+            <!-- <h2>Instructors</h2> -->
+            <!-- <div class="image--cover-container">
+                <img src="/course-2021-2022" class="image--cover">
+                <p></p>
+            </div> -->
+
+            <div class="profile-pic-gallary ">
+                <h2>Instructors</h2>
+                
+                
+                
+                 
+                <div class="image--cover-container">
+                    <img src="/course-2021-2022/_images/pp/julien.png" class="image--cover">
+                    
+                    <p><a href="https://thoth.inrialpes.fr/people/mairal/">Julien Mairal</a></p>
+                    
+                </div>
+                
+                
+                 
+                <div class="image--cover-container">
+                    <img src="/course-2021-2022/_images/pp/michael.jpg" class="image--cover">
+                    
+                    <p><a href="https://michaelarbel.github.io/">Michael Arbel</a></p>
+                    
+                </div>
+                
+                
+            </div>
+        </div>
+
+<!--         <div style="width:65%; float: left;margin-bottom: 10px">
+            <div class="profile-pic-gallary ">
+                <h2>Teaching Assistants</h2>
+                
+            </div>
+        </div> -->
+    </div>
+
+
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+<!--     <h2 class="footer-heading">MVA/MASH</h2> -->
+         <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+ 
+
+         <p class="text">
+MVA/MASH<br />
+ENS Paris Saclay/Dauphine, PSL University<br />
+
+      </div>
+
+      <div class="footer-col  footer-col-2">
+       <ul class="social-media-list">
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+  </body>
+
+</html>
+<!-- d.s.m.s.050600.062508.030515.080516.030818 | "Baby, I'm Yours" -->
