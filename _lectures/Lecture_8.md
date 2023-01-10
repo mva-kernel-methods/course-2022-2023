@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2023-03-15T8:00:00+1:30
+date: 2023-03-22T8:00:00+1:30
 title: Lecture 8 - Kernel Mean Embeddings of probability distributions
 tldr: "Representing probability distributions using kernels"
 

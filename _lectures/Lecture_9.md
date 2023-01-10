@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2023-03-22T8:00:00+1:30
+date: 2023-03-29T8:00:00+1:30
 title: Lecture 9 - Deep kernel machines and large-scale learning with kernels
 tldr: "Scaling up kernel methods to large problems"
 thumbnail: /static_files/presentations/Lecture_9.jpg
