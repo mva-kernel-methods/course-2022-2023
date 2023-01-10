@@ -5,7 +5,7 @@ title: 'Kaggle challenge '
 #pdf: /static_files/homeworks/hw3.pdf
 due_event: 
     type: due
-    date: 2023-03-31T15:00:00+3:30
+    date: 2023-04-12T15:00:00+3:30
     description: 'Kaggle challenge ends'
 display: false
 ---
