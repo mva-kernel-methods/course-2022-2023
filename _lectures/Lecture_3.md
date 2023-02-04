@@ -5,7 +5,7 @@ title: Lecture 3 - Kernel ridge and logistic regression
 tldr: "Application of kernel methods to regression"
 
 thumbnail: /static_files/presentations/Lecture_3.jpg
-display: false
+display: true
 slides: 83-114
 slides_begin: 83
 slides_ends: 114
