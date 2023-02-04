@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2023-01-27T16:01:00+1:30
+date: 2023-02-04T16:01:00+1:30
 title: 'Kaggle challenge '
 #pdf: /static_files/homeworks/hw3.pdf
 due_event: 
