@@ -4,7 +4,7 @@ date: 2023-03-01T8:00:00+1:30
 title: Lecture 6 - Green, Mercer, Herglotz, Bochner and friends
 tldr: "Some kernel theory."
 thumbnail: /static_files/presentations/Lecture_1.jpg
-display: false
+display: true
 slides: 203-310
 slides_begin: 203
 slides_ends: 310
