@@ -5,7 +5,7 @@ title: Lecture 8 - Kernel Mean Embeddings of probability distributions
 tldr: "Representing probability distributions using kernels"
 
 thumbnail: /static_files/presentations/Lecture_8.jpg
-display: false
+display: true
 slides: 543-598
 slides_begin: 543
 slides_ends: 598
